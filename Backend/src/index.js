@@ -16,19 +16,19 @@ import {app , server} from "./lib/socket.js";
 dotenv.config()
 // const app = express();
 
-const PORT = process.env.PORT;
+// const PORT = process.env.PORT;
 const __dirname = path.resolve();
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-  origin :"http://localhost:5174",
+  origin :"http://localhost:5173",
   credentials:true,
 })
 );
 
-// const PORT = 5001;
+const PORT = 5001;
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
