@@ -29,7 +29,7 @@ const AboutUsPage = () => {
         transition={{ duration: 1, delay: 1.2 }}
       >
         <img
-          src="../src/img/SatyamKus.png"
+          src="https://res.cloudinary.com/dn0nhuymn/image/upload/v1739536869/mdz2zbydkqziuwpoatoo.png"
           alt="Satyam"
           className="w-40 h-40 mx-auto rounded-full border-4 border-gray-600 shadow-md"
         />

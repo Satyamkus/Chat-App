@@ -86,14 +86,23 @@ const MessageInput = () => {
             onChange={handleImageChange}
           />
 
-            <button
+            <button 
+            type="button"
+            class={`btn btn-circle w-4 h-4 min-[300px]:w-10 min-[300px]:h-10
+            ${imagePreview ? "text-emerald-500" : "text-zinc-400"}`}
+            onclick={ () => fileInputRef.current?.click()}>
+              <Image size={18} />
+            </button>
+
+
+            {/* <button
               type="button"
               className={`hidden min-[300px]:flex btn btn-circle 
                           ${imagePreview ? "text-emerald-500" : "text-zinc-400"}`}
               onClick={() => fileInputRef.current?.click()}
             >
               <Image size={20} />
-            </button>
+            </button> */}
 
         </div>
         <button
