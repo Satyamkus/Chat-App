@@ -10,6 +10,10 @@ const ProfilePage = () => {
 
   const handleImageUpload = async (e) => {
     const file = e.target.files[0];
+    const maxSize = 5 * 1024 * 1024;
+    if(file.size > maxSize){
+      alert(`file is greater than ${maxSize} MB`);
+    }
     if (!file) return;
 
     const reader = new FileReader();
