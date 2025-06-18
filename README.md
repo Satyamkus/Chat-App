@@ -29,9 +29,8 @@ A full-stack **real-time chat app** built with the **MERN stack**, **Socket.io**
 ---
 
 ## 📸 Screenshots
-
-> *(Add your screenshots here for better appeal)*  
-> ![Chat UI](./Screenshots/Screenshot (679).png)
+ 
+ ![Chat UI](./Screenshots/Screenshot (679).png)
 
 ---
 
