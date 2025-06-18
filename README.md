@@ -3,7 +3,7 @@
 A full-stack **real-time chat app** built with the **MERN stack**, **Socket.io**, and **JWT authentication**, featuring online status updates, secure messaging, and a modern UI using **TailwindCSS** and **DaisyUI**.
 
 ---
-### Live ![https://chattermsg-chat-satyam.onrender.com](https://chattermsg-chat-satyam.onrender.com)
+## ![LIVE](https://chattermsg-chat-satyam.onrender.com)
 
 ## 🚀 Features
 
