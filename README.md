@@ -30,7 +30,12 @@ A full-stack **real-time chat app** built with the **MERN stack**, **Socket.io**
 
 ## 📸 Screenshots
  
- ![Chat UI](./Screenshots/Screenshot (679).png)
+ ![Chat UI](https://github.com/Satyamkus/Chat-App/blob/main/Screenshots/Screenshot%20(681).png)
+
+
+ ![Chat UI](https://github.com/Satyamkus/Chat-App/blob/main/Screenshots/Screenshot%20(680).png)
+
+ ![Chat UI](https://github.com/Satyamkus/Chat-App/blob/main/Screenshots/Screenshot%20(679).png)
 
 ---
 
